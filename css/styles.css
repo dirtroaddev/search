@@ -1,0 +1,68 @@
+nav > ul {
+    display: flex;
+    color: green;
+    justify-content: end;
+    padding: 0 40px 0 0 ;
+    list-style: none;
+}
+
+nav > ul > li {
+    padding: 0 10px;
+    
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+.main {
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main > form {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+input[type="text"][name="q"] {
+    /* CSS styles here */
+    width: 480px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+input[type="text"][name="as_q"],  input[type="text"][name="as_epq"], input[type="text"][name="as_oq"], input[type="text"][name="as_eq"]{
+    /* CSS styles here */
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
+
+
+
+  input[type="submit"] {
+    width: 220px;
+    border-radius: 8px;
+    font-size: 26px;
+    margin: 0 auto;
+    padding: 8px;
+  }
+
+  #advanced_search {
+    background-color: blue;
+    color: white;
+  }
+
+  .main_btns {
+    margin: 0 auto;
+  }
+
+  
